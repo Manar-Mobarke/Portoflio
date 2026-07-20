@@ -75,9 +75,9 @@ export function HeroSection() {
         className="mt-32 max-w-2xl mx-auto flex flex-col relative"
       >
         <div className="border border-secondary p-6 text-center text-xl relative bg-background z-10">
-          <div className="absolute -top-3 left-4 bg-background px-2 text-3xl font-serif leading-none">"</div>
+          <div className="absolute -top-3 left-4 bg-background px-2 text-3xl font-serif leading-none">&quot;</div>
           With great power comes great electricity bill
-          <div className="absolute -bottom-4 right-4 bg-background px-2 text-3xl font-serif leading-none">"</div>
+          <div className="absolute -bottom-4 right-4 bg-background px-2 text-3xl font-serif leading-none">&quot;</div>
         </div>
         <div className="border border-secondary border-t-0 p-3 self-end text-sm w-48 text-center relative z-0">
           - Dr. Who
