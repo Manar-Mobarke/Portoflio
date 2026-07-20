@@ -14,7 +14,7 @@ export function ProjectsSection() {
     <section id="works" className="relative py-24">
       <div className="flex justify-between items-end mb-12">
         <SectionHeading title="projects" className="mb-0" />
-        <a href="https://github.com/manarmubarak" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-foreground mb-1 text-sm">
+        <a href="https://github.com/Manar-Mobarke" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-foreground mb-1 text-sm">
           View all ~~&gt;
         </a>
       </div>
