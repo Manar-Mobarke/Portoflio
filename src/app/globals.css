@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #282C33;
+  --surface: #282C33;
+  --primary: #C778DD;
+  --secondary: #ABB2BF;
+  --foreground: #FFFFFF;
+  --muted: #ABB2BF;
+  --border: #ABB2BF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--secondary);
+  font-family: 'JetBrains Mono', monospace; /* The Elias design relies heavily on monospace font */
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(199, 120, 221, 0.3);
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(199, 120, 221, 0.5);
+  }
+}
+
+section {
+  position: relative;
+}
+
+input, textarea, select {
+  background: transparent;
+  color: var(--foreground);
+  outline: none;
+  border: 1px solid var(--secondary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--secondary);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--primary);
+}
+
+.page-container {
+  min-height: 100vh;
+}
