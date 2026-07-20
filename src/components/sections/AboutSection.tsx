@@ -11,14 +11,14 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mt-12">
           {/* LEFT: Text Content */}
           <div className="flex flex-col gap-6 text-secondary">
-            <p className="text-foreground">Hello, i'm Manar!</p>
+            <p className="text-foreground">Hello, i&apos;m Manar!</p>
             
             <p>
-              I'm a Full-Stack Developer based in Qena, Egypt. I can develop responsive websites and robust backend systems from scratch and raise them into modern user-friendly web experiences.
+              I&apos;m a Full Stack Developer based in Qena, Egypt. I can develop responsive websites and robust backend systems from scratch and raise them into modern user-friendly web experiences.
             </p>
 
             <p>
-              With end-to-end experience across React.js/Next.js front-ends and Node.js back-ends, I enjoy turning complex problems into elegant solutions. I am currently completing an intensive MEA|RN + Generative AI program at ITI, and I'm a B.Eng. graduate with a Distinction-grade embedded systems capstone.
+              With end-to-end experience across React.js/Next.js front-ends and Node.js back-ends, I enjoy turning complex problems into elegant solutions. I am currently completing an intensive MEA|RN + Generative AI program at ITI, and I&apos;m a B.Eng. graduate with a Distinction-grade embedded systems capstone.
             </p>
 
             <div>
@@ -58,7 +58,7 @@ export function AboutSection() {
           <div className="border border-secondary p-2 text-secondary text-sm h-fit">I like winter more than summer</div>
           <div className="border border-secondary p-2 text-secondary text-sm h-fit">I often code with my friends</div>
           <div className="border border-secondary p-2 text-secondary text-sm h-fit">I like pizza and pasta</div>
-          <div className="border border-secondary p-2 text-secondary text-sm h-fit">I'm a hardware geek</div>
+          <div className="border border-secondary p-2 text-secondary text-sm h-fit">I&apos;m a hardware geek</div>
           <div className="border border-secondary p-2 text-secondary text-sm h-fit">My favorite movie is The Green Mile</div>
           <div className="border border-secondary p-2 text-secondary text-sm h-fit">I have built IoT devices</div>
         </div>

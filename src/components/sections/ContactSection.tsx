@@ -12,7 +12,7 @@ export function ContactSection() {
         {/* LEFT: Text */}
         <div className="text-secondary text-base">
           <p>
-            I'm interested in freelance opportunities and full-time positions. However, if you have other requests or questions, don't hesitate to contact me.
+            I&apos;m interested in freelance opportunities and full-time positions. However, if you have other requests or questions, don&apos;t hesitate to contact me.
           </p>
         </div>
 
